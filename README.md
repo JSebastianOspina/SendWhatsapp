@@ -81,7 +81,7 @@ from twilio.rest import Client
 # client credentials are read from TWILIO_ACCOUNT_SID and AUTH_TOKEN
 client = Client()
 
-b=raw_input("Ingrese el messaje: ") #Message you want to send
+b=raw_input("What do you want to send, sir?: ") #Message you want to send
 # this is the Twilio sandbox number that the website provide you
 from_whatsapp_number='whatsapp:+14155238886'
 # replace this number with your own WhatsApp Messaging number
