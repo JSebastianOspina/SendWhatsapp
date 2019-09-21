@@ -31,23 +31,23 @@ python get-pip.py
 ```
 At this point, we are able to install Virtualenv.
 ```sh
-sudo pip install virtualenv
+$sudo pip install virtualenv
 ```
 Then, use the following code for creating a new virtual enviroment
 ```sh
-virtualenv pywhatsapp
+$virtualenv pywhatsapp
 ```
 If you have Python 3 installed, you only need to use the following code:
 ```sh
-python3 -m venv pywhatsapp
+$python3 -m venv pywhatsapp
 ```
 Finally, for both versions (2 or 3), use this command for getting inside our virtual enviroment.
 ```sh
-source ./pywhatsapp/bin/activate
+$source ./pywhatsapp/bin/activate
 ```
 Now, we have to download the Twilio's Python library
 ```sh
-pip install twilio
+$pip install twilio
 ```
 # Twilio Setup (Register and activation)
 Register on the website twilio.com, confirm your email and cellphone number, then, go to the following link https://www.twilio.com/console/sms/whatsapp/learn
@@ -65,14 +65,14 @@ On the top-rigth part of the website, you will find a button named "Show API Cre
 
 In the terminal, use this instruction
 ```sh
-export TWILIO_ACCOUNT_SID='ACxxxxxxxx' # paste in Account SID between single quotes
+$export TWILIO_ACCOUNT_SID='ACxxxxxxxx' # paste in Account SID between single quotes
 
-export TWILIO_AUTH_TOKEN='secret auth token' # paste Auth Token between single quotes
+$export TWILIO_AUTH_TOKEN='secret auth token' # paste Auth Token between single quotes
 ```
 # Using the api!
 Create a new Python file (Using Atom)
 ```sh
-Atom whatsapp.py
+$Atom whatsapp.py
 ```
 Then, paste this code
 ```sh
