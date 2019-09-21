@@ -1,6 +1,6 @@
 # SendWhatsapp
 Send whatsapp message throw python using Twilio api
-# Sending whatsapp Usinng Python and Twilio api
+
 
 To send a whatsapp mesagge throw Twilio api, you need to have all this item ready before you start.
 
