@@ -56,7 +56,7 @@ You will have to start the sandbox via Whatsapp, for this step, you have to send
 
 You can easily send the message using this url
 http://wa.me/14155238886
-Remplace "14155238886" for the number that the website will provide you.
+Remplace "14155238886" for the number that the website provided you.
 Then send the message  **join upon-memory**
 
 Our account is done for using the api.
